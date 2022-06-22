@@ -1,10 +1,12 @@
 .App {
   text-align: center;
+  font-family: 'Roboto';
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 6vmin;
   pointer-events: none;
+  margin: 0 -12px -8px -11px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,17 +17,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
